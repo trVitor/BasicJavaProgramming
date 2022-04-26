@@ -6,16 +6,16 @@ public class Funcao {
 		Scanner ler = new Scanner(System.in);
 		
 		System.out.println("Digite um valor: ");
-        double x = ler.nextDouble();
+        double fx, x = ler.nextDouble();
         
         if(x< -2) {
-        	x= 2*x+2;
+        	fx= 2*x + 2;
         }else if (-2 <= x && x <3) {
-        	x=3;
+        	fx = 3;
         }else if (3<=x) {
-        	x= -x;
+        	fx= -x;
         }
-        	System.out.println("\nO valor da função após receber um valor é: " + x);
+        	System.out.println("\nO valor da funÃ§Ã£o apÃ³s receber um valor Ã©: " + fx);
 ler.close();
 }
 }
