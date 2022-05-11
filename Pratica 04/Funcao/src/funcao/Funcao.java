@@ -4,9 +4,9 @@ public class Funcao {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
-		
-		System.out.println("Digite um valor: ");
-        double fx, x = ler.nextDouble();
+	double fx=0;	
+	System.out.println("Digite um valor: ");
+         x = ler.nextDouble();
         
         if(x< -2) {
         	fx= 2*x + 2;
